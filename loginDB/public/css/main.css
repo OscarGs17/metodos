@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to bottom, #0b1a36, #0e1f42, #12254e, #162a5a, #1a3066, #1f3671, #243c7c, #294288, #2f4a96, #3553a3, #3b5bb1, #4163bf);
+    background-attachment: fixed;
+ }
+ 
+ button {
+     background-image: linear-gradient(to right, #0b1a36, #0e1f42, #12254e, #162a5a, #1a3066, #1f3671, #243c7c, #294288, #2f4a96, #3553a3, #3b5bb1, #4163bf);
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .c-user {
+     font-size: 100px;
+ }
+ 
+ .form-control {
+     color: white;
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     border-bottom: solid white 2px;
+ }
+ .form-control:focus {
+     color: white;
+     border: none;
+     border-bottom: solid white 2px;
+     box-shadow: none;
+     background-color: rgba(255, 255, 255, 0);
+ }
+ .form-control::placeholder {
+     color: rgb(197, 193, 193);
+ }
+ 
+ .input-group-text {
+     color: white;
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     border-bottom: solid white 2px;
+ }
+ 
+ form {
+     background-color: rgba(255, 255, 255, 0.1); 
+     border-radius: 15px; /* Bordes redondeados */
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+     backdrop-filter: blur(10px); /* Desenfoque del fondo */
+     -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+     border: 1px solid rgba(255, 255, 255, 0.3);
+ }
+ 
